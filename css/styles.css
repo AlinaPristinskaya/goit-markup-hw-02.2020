@@ -1,0 +1,88 @@
+:root {
+  --accent: #2196f3;
+  --primery-text-color: #757575;
+  --white: #ffffff;
+  --black: #000000;
+  --secondary-text-color: #212121;
+  --secondary-bgcolor: #f5f4fa;
+  --whiitetrans: rgba(255, 255, 255, 60%);
+}
+body {
+  background-color: var(--white);
+  color: var(--primery-text-color);
+}
+.logo {
+  color: var(--accent);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--black);
+}
+.list {
+  list-style: none;
+}
+.site-nav .link {
+  color: var(--secondary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent);
+}
+.site-nav .current {
+  color: var(--accent);
+}
+
+.telmailto {
+  color: var(--primery-text-color);
+}
+.telmailto:hover,
+.telmailto:focus {
+  color: var(--accent);
+}
+.accentpage {
+  color: var(--white);
+}
+.section-order {
+  background-color: #2f303a;
+}
+.button {
+  /* hfpvth ihbanf*/
+}
+.primery {
+  color: var(--white);
+  background-color: var(--accent);
+}
+.secondary {
+  color: var(--black);
+  background-color: #f5f4fa;
+}
+.section-title {
+  color: var(--secondary-text-color);
+}
+.profession {
+  /*цвет из боди а сюда кегель*/
+}
+.name {
+}
+.footer {
+  background-color: #2f303a;
+}
+.bgcolor {
+  background-color: #f5f4fa;
+}
+.adres {
+  color: var(--white);
+}
+.links {
+  color: var(--whiitetrans);
+}
+.button.portfolio:hover,
+.button.portfolio:focus {
+  color: var(--white);
+  background-color: var(--accent);
+}
+.kind {
+  list-style: none;
+  color: var(--primery-text-color);
+}
