@@ -10,9 +10,19 @@
 body {
   background-color: var(--white);
   color: var(--primery-text-color);
+
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .logo {
   color: var(--accent);
+
+  font-family: raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .logo:hover,
@@ -24,6 +34,11 @@ body {
 }
 .site-nav .link {
   color: var(--secondary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -35,6 +50,10 @@ body {
 
 .telmailto {
   color: var(--primery-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .telmailto:hover,
 .telmailto:focus {
@@ -42,23 +61,47 @@ body {
 }
 .accentpage {
   color: var(--white);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .section-order {
   background-color: #2f303a;
+  align-items: center;
+  text-align: center;
 }
 .button {
-  /* hfpvth ihbanf*/
 }
-.primery {
+.button.primery {
   color: var(--white);
   background-color: var(--accent);
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 .secondary {
   color: var(--black);
   background-color: #f5f4fa;
 }
-.section-title {
+.sec {
   color: var(--secondary-text-color);
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .profession {
   /*цвет из боди а сюда кегель*/
