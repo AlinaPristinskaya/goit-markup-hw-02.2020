@@ -16,6 +16,16 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
+a {
+  text-decoration: none;
+}
+.black {
+  color: var(--black);
+}
+.black:hover,
+.black:focus {
+  color: var(--accent);
+}
 .logo {
   color: var(--accent);
 
@@ -159,4 +169,25 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.white {
+  color: var(--white);
+}
+.white:hover,
+.white:focus {
+  color: var(--accent);
+}
+.logofoot {
+  color: var(--accent);
+  font-family: raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logofoot:hover,
+.logofoot:focus {
+  color: var(--white);
+}
+.bgcolor {
+  background-color: var(--secondary-bgcolor);
 }
